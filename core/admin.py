@@ -52,3 +52,8 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(models.User, UserAdmin)
+#NAOOOO ESQUECEEEEEEEEE
+admin.site.register(models.Veiculo)
+admin.site.register(models.Modelo)
+admin.site.register(models.Cor)
+admin.site.register(models.Acessorios)
