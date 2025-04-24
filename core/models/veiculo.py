@@ -15,4 +15,3 @@ class Veiculo(models.Model):
 
     def __str__(self):
         return f"ID {self.id} - {self.modelo} - {self.cor} - {self.ano}"
-
